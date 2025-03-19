@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Mood Tracker</title>
+    <link rel="icon" type="image/x-icon" href="./assets/happy.gif" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="card card-30">
+        <div class="card-header">
+          <h2>Track Your Mood</h2>
+          <p>How are you feeling today?</p>
+        </div>
+        <div id="form-container">
+          <form class="mood-picker" id="mood-track-form">
+            <div class="mood-option-container"></div>
+            <button type="submit" id="submit-btn">Save</button>
+          </form>
+        </div>
+
+        <div id="quote-container" class="mood-quote"></div>
+
+      </div>
+      <div class="card card-70">
+        <div id="calendar"></div>
+      </div>
+
+      <div id="eventModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3 class="mb-20">Mood Detail</h3>
+          <div class="flex justify-between align-items-center">
+            <div>
+              <p class="mb-5">
+                <strong>Label:</strong> <span id="mood-label"></span>
+              </p>
+              <p class="mb-5">
+                <strong>Date:</strong> <span id="mood-date"></span>
+              </p>
+            </div>
+            <div>
+              <span id="mood-emoji"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
