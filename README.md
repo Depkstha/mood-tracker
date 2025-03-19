@@ -52,4 +52,4 @@ This project allow users to track their mood on daily basis using local storage 
 ![Tracker Screenshot](assets/screenshots/05.jpeg)
 
 ## Note
-This project is part of fulfillment of an assignment provided by Cohort on Masterji. Thank you Hitesh sir, Piyush sir, TA's and entire team for running such wonderful cohort sucessfully. I am very happy that I can be part of it. Love from Nepal.
+This project is part of the fulfillment of an assignment provided by Cohort on Masterji. Thank you Hitesh sir, Piyush sir, TA's and entire team for running such wonderful cohort successfully. I am very happy that I can be part of it. Love and support from Nepal.
