@@ -6,11 +6,16 @@ This project allow users to track their mood on daily basis using local storage 
 
 - [Daily Mood Tracker](#daily-mood-tracker)
   - [Table of Contents](#table-of-contents)
+  - [Deployment](#deployment)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Note](#note)
+
+## Deployment
+
+- **Live link**: https://mood-tracker-swart.vercel.app
 
 ## Features
 
